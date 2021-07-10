@@ -1,0 +1,67 @@
+*, *::before, *::after {
+    border-radius: 3px;
+    font-family: Gotham Rounded, sans-serif;
+      font-weight: normal;
+      color:white
+    }
+
+
+body{
+    background: #203647;  
+}
+
+.Elements{
+    border-radius: 4px;
+      font-family: Gotham Rounded, SansSerif;
+      font-weight:normal;
+      display:grid;
+      justify-content: space-around;
+      align-content: space-between;
+      max-height: 110vh;
+      min-height: 75vh;
+      font: size 15px;
+      grid-template-columns:repeat(3, 175px);
+      grid-template-rows:repeat(2, 175px);
+  }
+  
+.Container{
+    text-align: center;
+    color:aliceblue;
+    font-size: large;
+    }
+
+    .Elements .content> button {
+        max-width: 90px;
+        margin: 3px;
+        border-radius: 4px;
+        border: none;
+        background: rgba(255, 255, 255, 0.2);
+        color: #ffffff;
+        font-size: 1.05rem;
+        outline: none;
+        cursor: pointer;
+        max-width: 94%;  padding: 20px;
+        -webkit-tap-highlight-color: transparent;
+        }
+
+        .B>button {
+            max-width: 70px;
+            margin: 1px;
+            border-radius: 2px;
+            border: none;
+            background: rgba(255, 255, 255, 0.2);
+            color: #ffffff;
+            font-size: 1.05rem;
+            outline: none;
+            cursor: pointer;
+            max-width: 94%;  padding: 15px;
+            -webkit-tap-highlight-color: transparent;
+            }
+
+            .Elements .content> button:hover {
+                background-color: rgba(240, 280, 350, 0.75);
+                }
+                .B> button:hover{
+                    background-color: rgba(240, 280, 350, 0.75);
+          
+                  }
