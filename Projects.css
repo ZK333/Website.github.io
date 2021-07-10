@@ -1,3 +1,4 @@
+
 *, *::before, *::after {
     border-radius: 3px;
     font-family: Gotham Rounded, sans-serif;
@@ -64,4 +65,13 @@ body{
                 .B> button:hover{
                     background-color: rgba(240, 280, 350, 0.75);
           
+                  }
+
+
+                  .Elements .content{
+                      background-color: rgb(250, 139, 4);
+                      background: linear-gradient(to bottom,#e30606,#f57b02);
+                      padding:12px;
+                      border-radius: 20%;
+                      text-align: center;
                   }
