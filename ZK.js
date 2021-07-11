@@ -8,6 +8,7 @@ const b2=document.getElementById("2")
 const b3=document.getElementById("3") // Theme button
 const b4=document.getElementById("4")
 const b5=document.getElementById("5")
+var x=2;
 
 var z=0; 
 
@@ -33,7 +34,20 @@ function Random(){
 function light(){
     document.body.style.backgroundImage = "url('')"; 
     var element = document.body;
-    element.classList.toggle("light-mode");
+
+    if(x%2==0){
+    setting.style.backgroundColor="white"; 
+    }
+    if(x%2==1){
+        setting.style.backgroundColor="black"; 
+    }
+    x=x+1; 
+
 }
+
+    function normal(){
+        var element = document.body;
+       element.classList.toggle("normal-mode");
+    }
 
 
