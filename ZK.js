@@ -28,11 +28,17 @@ function logKey(e){
 }
 
 function Random(){
-    document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?mountains')";
 }
 
 function light(){
-    document.body.style.backgroundImage = "url('')";
-    document.body.classList.toggle('light-mode');
+    document.body.style.backgroundImage = "url('')"; 
+    var element = document.body;
+    element.classList.toggle("light-mode");
 }
+
+    function normal(){
+        var element = document.body;
+       element.classList.toggle("normal-mode");
+    }
+
 
