@@ -10,6 +10,11 @@ body{
     background: linear-gradient(to right, #203647,rgb(70, 54, 71));
 }
 
+.body{
+  background: linear-gradient(to right, #203647,rgb(70, 54, 71));
+}
+
+
 .container{
 text-align: center;
 color:rgb(8, 175, 252);
@@ -90,14 +95,14 @@ font-size: large;
 
         }
         
-        .light-mode{
-          background-color: white;
-          color:black;
+        .light-mode {
+          background-color: black;
+          color: white;        
         }
 
         .container-2 .p{
           font-size: 5vh;
-          color: rgb(210, 228, 252); 
+          color: rgb(50, 70, 97); 
         }
 
         
