@@ -7,6 +7,8 @@ const b1=document.getElementById("1")
 const b2=document.getElementById("2")
 const b3=document.getElementById("3") // Theme button
 const b4=document.getElementById("4")
+const b5=document.getElementById("5")
+
 var z=0; 
 
 
@@ -29,10 +31,8 @@ function Random(){
     document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?mountains')";
 }
 
-function normal(){
+function light(){
     document.body.style.backgroundImage = "url('')";
-    document.body.style.backgroundColor="#203647"; 
+    document.body.classList.toggle('light-mode');
 }
-
-
 
