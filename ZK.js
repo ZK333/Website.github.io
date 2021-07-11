@@ -36,9 +36,4 @@ function light(){
     element.classList.toggle("light-mode");
 }
 
-    function normal(){
-        var element = document.body;
-       element.classList.toggle("normal-mode");
-    }
-
 
