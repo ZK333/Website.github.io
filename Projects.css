@@ -1,3 +1,4 @@
+  
 body{
     font-family: 'Open Sans', sans-serif;
     background-color: #007c4c
@@ -9,7 +10,7 @@ body{
     align-items: space-around;
 }
 .Container-1{
-    font-size: .7rem;
+    font-size: 1.7rem;
 }
 
 .Container-2{
@@ -20,7 +21,7 @@ body{
 }
 
 .content{
-    font-size: .5rem; 
+    font-size: 1.5rem; 
     background-color: rgba(152, 251, 152, 0.74);
     margin: 10px;
     padding: 10vh;
