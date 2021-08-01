@@ -1,77 +1,82 @@
-
-*, *::before, *::after {
-    border-radius: 3px;
-    font-family: Gotham Rounded, sans-serif;
-      font-weight: normal;
-      color:white
-    }
-
-
 body{
-    background: #203647;  
+    font-family: 'Open Sans', sans-serif;
+    background-color: #007c4c
 }
 
-.Elements{
-    border-radius: 4px;
-      font-family: Gotham Rounded, SansSerif;
-      font-weight:normal;
-      display:grid;
-      justify-content: space-around;
-      align-content: space-between;
-      max-height: 110vh;
-      min-height: 75vh;
-      font: size 15px;
-      grid-template-columns:repeat(3, 175px);
-      grid-template-rows:repeat(2, 175px);
-  }
-  
-.Container{
+.Container-1{
+    display:flex;
+    justify-content: center;
+    align-items: space-around;
+}
+
+.Container-2{
+    display: grid;
+    justify-content: center;
+    grid-template-columns:repeat(1, 100vh);
+    grid-template-rows:repeat(4, 83vh);
+}
+
+.content{
+    font-size: larger;
+    background-color: rgba(152, 251, 152, 0.74);
+    margin: 10px;
+    padding: 10vh;
+    border-radius: 5%;
+}
+
+.Container-1>button{
+    cursor: pointer;
+  font-size: 2rem;
+  border: 1px solid white;
+  outline: none;
+  padding:10px;
+  margin-left:20px; 
+  color: #ffffff;
+  -webkit-tap-highlight-color: transparent;
+  border:none; 
+  background-color: rgba(238, 9, 9, 0);
+}
+
+.content>button{
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid white;
+    outline: none;
+    padding:20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;    
+    -webkit-tap-highlight-color: transparent;
+    background-color: rgba(214, 1, 1, 0.767);
+    background: linear-gradient(to right,#f71414d8,#f80303c4);
+    display: flex;
+    margin: 5vh; 
     text-align: center;
-    color:aliceblue;
-    font-size: large;
-    }
+    align-content: center;
+    justify-content: center;
+}
 
-    .Elements .content> button {
-        max-width: 90px;
-        margin: 3px;
-        border-radius: 4px;
-        border: none;
-        background: rgba(255, 255, 255, 0.2);
-        color: #ffffff;
-        font-size: 1.05rem;
-        outline: none;
-        cursor: pointer;
-        max-width: 94%;  padding: 20px;
-        -webkit-tap-highlight-color: transparent;
-        }
+.content>button:hover{
+    padding:24px;
+    padding-left: 220px;
+    padding-right: 220px;
+}
 
-        .B>button {
-            max-width: 70px;
-            margin: 1px;
-            border-radius: 2px;
-            border: none;
-            background: rgba(255, 255, 255, 0.2);
-            color: #ffffff;
-            font-size: 1.05rem;
-            outline: none;
-            cursor: pointer;
-            max-width: 94%;  padding: 15px;
-            -webkit-tap-highlight-color: transparent;
-            }
+.Buttons>button{
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid white;
+    outline: none;
+    padding:10px;
+    margin-left:20px; 
+    color: #ffffff;
+    -webkit-tap-highlight-color: transparent;
+    border:none; 
+    background-color: rgba(0, 0, 0, 0);
+}
 
-            .Elements .content> button:hover {
-                background-color: rgba(240, 280, 350, 0.75);
-                }
-                .B> button:hover{
-                    background-color: rgba(240, 280, 350, 0.75);
-          
-                  }
-
-
-                  .Elements .content{
-                      background-color: rgb(250, 139, 4);
-                      background: linear-gradient(to bottom,#e30606,#f57b02);
-                      padding:12px;
-                      border-radius: 20%;
-                      text-align: center;
-                  }
+.Buttons>button:hover{
+    background-color: rgba(240, 280, 350, 0.75);
+}
