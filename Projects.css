@@ -16,7 +16,7 @@ body{
 .Container-2{
     display: grid;
     justify-content: center;
-    grid-template-columns:repeat(1, 100vh);
+    grid-template-columns:repeat(2, 100vh);
     grid-template-rows:repeat(4, 83vh);
 }
 
