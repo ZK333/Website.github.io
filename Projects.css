@@ -17,7 +17,7 @@ body{
 }
 
 .content{
-    font-size: larger;
+    font-size: 5 rem;
     background-color: rgba(152, 251, 152, 0.74);
     margin: 10px;
     padding: 10vh;
