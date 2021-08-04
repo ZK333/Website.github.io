@@ -34,8 +34,7 @@ align-items: space-around;
 body{
   font-family: 'Open Sans', sans-serif;
   background-color: lightblue;
-  background: rgba(238, 9, 9, 0);
-
+  background-color: #007c4c
 }
 
 .container{
@@ -53,5 +52,4 @@ canvas{
   position: absolute;
   top: 250px;
 }
-        
   
